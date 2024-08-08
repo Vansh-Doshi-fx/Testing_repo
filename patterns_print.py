@@ -7,4 +7,6 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+def isPalindrome(s):
+    return s == s[::-1]

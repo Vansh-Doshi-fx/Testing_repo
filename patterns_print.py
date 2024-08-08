@@ -7,4 +7,12 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+def printReverseStarPyramid(n):
+    for i in range(n, 0, -1):
+        for j in range(i):
+            print("*", end=" ")
+        print()
+
+printFirstTenNum()
+printReverseStarPyramid(10)

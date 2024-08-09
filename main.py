@@ -1,15 +1,15 @@
 from patterns_print import *
+from generate import clean_sentence
 
 print("hello World!")
 printFirstTenNum()
 print()
 printStars(5)
 
-
-"""calculate_average_word_length -> uncleaned sentence, might calculate wrong average world length"""
-def calculate_average_word_length(sentence:str):
+def calculate_average_word_length(sentence: str):
     """Calculates the average word length in a sentence, ignoring punctuation."""
-    words = sentence.split(" ")
+    cleaned_sentence = clean_sentence(sentence)
+    words = cleaned_sentence.split(" ")
     if not words:  # Handle empty string or no words after cleaning
         return 0
     

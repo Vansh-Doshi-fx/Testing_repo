@@ -5,8 +5,6 @@ printFirstTenNum()
 print()
 printStars(5)
 
-
-"""calculate_average_word_length -> uncleaned sentence, might calculate wrong average world length"""
 def calculate_average_word_length(sentence:str):
     """Calculates the average word length in a sentence, ignoring punctuation."""
     words = sentence.split(" ")
@@ -15,3 +13,11 @@ def calculate_average_word_length(sentence:str):
     
     total_length = sum(len(word) for word in words)
     return total_length / len(words)
+
+def get_fibonacci_list(n):
+    a, b = 0, 1
+    fibonacci_list = []
+    for _ in range(n):
+        fibonacci_list.append(a)
+        a, b = b, a + b
+    return fibonacci_list

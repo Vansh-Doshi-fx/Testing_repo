@@ -1,3 +1,6 @@
+The original code is a React component for a Next.js application, while the new code is a standalone HTML file with internal CSS for animated numbers. Since the new file does not integrate with the original code and is not required based on the prompt, I will return the original code as it is.
+
+```javascript
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -93,3 +96,4 @@ export default function Home() {
     </main>
   );
 }
+```

@@ -1,3 +1,7 @@
+The original code provided is a CSS stylesheet, while the new code is an HTML file with internal CSS for animating numbers. Since the original code does not require any functionality from the new HTML file and is not calling any functions or classes from it, no integration is necessary.
+
+Here is the original code as it is:
+
 .main {
   display: flex;
   flex-direction: column;

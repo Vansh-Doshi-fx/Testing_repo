@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Counter from './CounterComponent';
 
 export default function Home() {
   return (
@@ -38,6 +39,8 @@ export default function Home() {
           priority
         />
       </div>
+
+      <Counter />
 
       <div className={styles.grid}>
         <a

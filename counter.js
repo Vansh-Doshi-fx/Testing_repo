@@ -1,4 +1,3 @@
-```javascript
 import React, { useState } from 'react';
 
 const Counter = () => {
@@ -17,4 +16,3 @@ const Counter = () => {
 };
 
 export default Counter;
-```

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Counter from './CounterComponent'; // Importing the new Counter component
 
 export default function Home() {
   return (
@@ -90,6 +91,9 @@ export default function Home() {
           </p>
         </a>
       </div>
+      
+      <Counter /> {/* Adding the Counter component to the main layout */}
+
     </main>
   );
 }

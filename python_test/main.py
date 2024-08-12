@@ -1,4 +1,4 @@
-from patterns_print import *
+from python_test.patterns_print import *
 
 print("hello World!")
 printFirstTenNum()

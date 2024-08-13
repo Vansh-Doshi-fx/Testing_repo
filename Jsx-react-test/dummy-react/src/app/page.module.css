@@ -1,3 +1,7 @@
+The original code provided is a CSS stylesheet, while the new code is a Python function for validating phone numbers. Since the original code does not require any functionality from the new file and there are no calls to the function `is_valid_phone_number` in the original CSS code, no integration is necessary.
+
+Therefore, the original code remains unchanged:
+
 .main {
   display: flex;
   flex-direction: column;

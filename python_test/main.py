@@ -5,8 +5,6 @@ printFirstTenNum()
 print()
 printStars(5)
 
-
-"""calculate_average_word_length -> uncleaned sentence, might calculate wrong average world length"""
 def calculate_average_word_length(sentence:str):
     """Calculates the average word length in a sentence, ignoring punctuation."""
     words = sentence.split(" ")
@@ -15,3 +13,5 @@ def calculate_average_word_length(sentence:str):
     
     total_length = sum(len(word) for word in words)
     return total_length / len(words)
+
+from phone_validation import is_valid_phone_number

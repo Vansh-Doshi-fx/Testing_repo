@@ -1,5 +1,7 @@
+```javascript
 import Image from "next/image";
 import styles from "./page.module.css";
+import { is_valid_phone_number } from "./phone_validation"; // Assuming the new file is in the same directory
 
 export default function Home() {
   return (
@@ -93,3 +95,4 @@ export default function Home() {
     </main>
   );
 }
+```

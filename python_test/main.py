@@ -15,3 +15,9 @@ def calculate_average_word_length(sentence:str):
     
     total_length = sum(len(word) for word in words)
     return total_length / len(words)
+
+def validate_phone_number(phone_number: str) -> bool:
+    """Validates a phone number format."""
+    import re
+    pattern = re.compile(r'^\+?1?\d{9,15}$')
+    return bool(pattern.match(phone_number))

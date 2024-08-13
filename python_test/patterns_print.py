@@ -7,4 +7,5 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+from phone_validation import is_valid_phone_number

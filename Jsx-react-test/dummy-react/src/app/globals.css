@@ -1,3 +1,5 @@
+The original code does not require any integration with the new file, as it is a CSS stylesheet and does not call any functions or classes from the new Python file. Therefore, the original code remains unchanged.
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;

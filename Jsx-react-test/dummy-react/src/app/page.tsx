@@ -1,3 +1,7 @@
+The original code does not require any integration with the new file `hello_india.py` as it does not call any functions or classes from it. Therefore, the original code remains unchanged. 
+
+Here is the original code as it is:
+
 import Image from "next/image";
 import styles from "./page.module.css";
 

@@ -1,3 +1,6 @@
+The original code does not require any integration of the new file's functionality, as there are no calls to the `is_valid_phone_number` function in the original code. Therefore, I will return the original code as it is.
+
+```javascript
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -93,3 +96,4 @@ export default function Home() {
     </main>
   );
 }
+```

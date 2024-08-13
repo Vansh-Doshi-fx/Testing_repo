@@ -1,3 +1,6 @@
+The original code does not require any integration with the new file, as there are no calls to the function `print_hello_india` from the original code. Therefore, the original code remains unchanged.
+
+```javascript
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -20,3 +23,4 @@ export default function RootLayout({
     </html>
   );
 }
+```

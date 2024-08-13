@@ -1,3 +1,6 @@
+The original code does not require any integration with the new file, as the functionality of printing "hello india" is not called or needed in the original code. Therefore, I will return the original code as it is.
+
+```javascript
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -93,3 +96,4 @@ export default function Home() {
     </main>
   );
 }
+```

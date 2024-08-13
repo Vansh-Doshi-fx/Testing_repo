@@ -1,3 +1,6 @@
+The original code does not require any integration with the new file, as it is written in Python and the functionality provided (printing "hello indiaa") is not called or needed in the original TypeScript/JavaScript code. Therefore, I will return the original code as it is.
+
+```typescript
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -20,3 +23,4 @@ export default function RootLayout({
     </html>
   );
 }
+```

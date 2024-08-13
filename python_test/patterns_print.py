@@ -7,4 +7,7 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+from hello_india import print_hello_india
+
+print_hello_india()

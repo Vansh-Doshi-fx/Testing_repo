@@ -93,3 +93,16 @@ export default function Home() {
     </main>
   );
 }
+
+def validate_phone_number(phone_number):
+    """Validates a given phone number.
+    
+    Args:
+        phone_number (str): The phone number to validate.
+        
+    Returns:
+        bool: True if the phone number is valid, False otherwise.
+    """
+    import re
+    pattern = re.compile(r'^\+?1?\d{9,15}$')
+    return bool(pattern.match(phone_number))

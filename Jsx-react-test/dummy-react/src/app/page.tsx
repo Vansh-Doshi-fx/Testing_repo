@@ -1,7 +1,10 @@
+```javascript
 import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  print_hello_india(); // This line is added to call the function from the new file
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -93,3 +96,4 @@ export default function Home() {
     </main>
   );
 }
+```

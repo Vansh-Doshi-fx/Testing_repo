@@ -1,3 +1,6 @@
+The original code does not require any integration with the new file, as it does not call any functions or classes from the new file. Therefore, I will return the original code as it is.
+
+```javascript
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -93,3 +96,4 @@ export default function Home() {
     </main>
   );
 }
+```

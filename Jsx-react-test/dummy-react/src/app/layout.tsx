@@ -1,3 +1,7 @@
+The original code does not require any integration with the new file since it is a Python script and the original code is written in TypeScript/JavaScript for a Next.js application. Therefore, no changes are necessary.
+
+Here is the original code as it is:
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

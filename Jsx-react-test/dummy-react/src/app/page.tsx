@@ -1,7 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+from hello_india_printer import print_hello_india
 
 export default function Home() {
+  print_hello_india()
   return (
     <main className={styles.main}>
       <div className={styles.description}>

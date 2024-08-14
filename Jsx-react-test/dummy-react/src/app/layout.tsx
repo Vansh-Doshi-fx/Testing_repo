@@ -1,3 +1,5 @@
+The original code does not require any integration with the new file since it does not call any functions or classes from the new file. Therefore, the original code remains unchanged.
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";

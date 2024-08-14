@@ -2,6 +2,9 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  // Added functionality to print a message
+  printMessage();
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -92,4 +95,9 @@ export default function Home() {
       </div>
     </main>
   );
+}
+
+function printMessage() {
+  const message = "heklko asmdnakf";
+  console.log(message);
 }

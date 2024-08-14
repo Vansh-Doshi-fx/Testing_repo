@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  print_message()  # Call the function from the new file to print the message
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>

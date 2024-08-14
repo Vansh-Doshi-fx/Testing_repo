@@ -1,3 +1,5 @@
+The original code does not require any integration with the new file, as there are no calls to the function `print_message()` from the new file in the original code. Therefore, the original code remains unchanged.
+
 .main {
   display: flex;
   flex-direction: column;

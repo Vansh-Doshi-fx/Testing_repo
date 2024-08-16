@@ -1,3 +1,5 @@
+The original code does not require any integration with the new file `print_string_example.py` since it does not call the function `print_string()` or utilize any functionality from that file. Therefore, the original code remains unchanged.
+
 import Image from "next/image";
 import styles from "./page.module.css";
 

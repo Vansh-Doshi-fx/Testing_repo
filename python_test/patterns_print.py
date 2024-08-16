@@ -7,4 +7,5 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+from star_pattern_generator import print_star_pattern

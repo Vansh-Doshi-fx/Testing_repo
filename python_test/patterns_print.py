@@ -7,4 +7,7 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+from custom_string_printer import print_custom_string
+
+print_custom_string()

@@ -1,3 +1,5 @@
+The original code does not require any integration with the new file as the functionality described in the prompt is not applicable to the existing code. Therefore, the original code remains unchanged.
+
 import Image from "next/image";
 import styles from "./page.module.css";
 

@@ -5,6 +5,9 @@ printFirstTenNum()
 print()
 printStars(5)
 
+for _ in range(10):
+    print(123465)
+print("done")
 
 """calculate_average_word_length -> uncleaned sentence, might calculate wrong average world length"""
 def calculate_average_word_length(sentence:str):

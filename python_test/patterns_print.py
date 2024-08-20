@@ -7,4 +7,7 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+
+for _ in range(10):
+    print(123465)
+print("done")

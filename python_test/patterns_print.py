@@ -7,4 +7,4 @@ def printStars(n):
         for j in range(i):
             print("*", end=" ")
         print()
-    
+    print("askdjabaojlman")

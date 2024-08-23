@@ -105,3 +105,18 @@ a {
     color-scheme: dark;
   }
 }
+
+import streamlit as st
+
+def main():
+    st.title("HTML File Handler")
+    
+    uploaded_file = st.file_uploader("Choose an HTML file", type="html")
+    
+    if uploaded_file is not None:
+        # Read and display the HTML file
+        html_content = uploaded_file.read().decode("utf-8")
+        st.markdown(html_content, unsafe_allow_html=True)
+
+if __name__ == "__main__":
+    main()

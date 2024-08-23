@@ -90,6 +90,9 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div>
+        <p>Something unique!</p>
+      </div>
     </main>
   );
 }

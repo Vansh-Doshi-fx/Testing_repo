@@ -8,3 +8,4 @@ def printStars(n):
             print("*", end=" ")
         print()
     
+    print("Unique output")

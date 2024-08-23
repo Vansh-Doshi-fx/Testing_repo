@@ -1,5 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import os
+
+def create_joke_file(filename):
+    joke = "Why don't scientists trust atoms? Because they make up everything!"
+    with open(filename, 'w') as file:
+        file.write(joke)
+
+create_joke_file('joke.txt')
 
 export default function Home() {
   return (
